@@ -2,7 +2,7 @@
 
 ## PantherUI
 
-Panther provides a builtin webserver, which can serve [PantherUI](https://github.com/panther/pantherui), the panther UI.
+Panther provides a builtin webserver, which can serve [PantherUI](https://github.com/thefieryleo/pantherui), the panther UI.
 
 By default, the UI is not included in the installation (except for docker images), and must be installed explicitly with `panther install-ui`.
 This same command can also be used to update pantherUI, should there be a new release.
@@ -10,10 +10,10 @@ This same command can also be used to update pantherUI, should there be a new re
 Once the bot is started in trade / dry-run mode (with `panther trade`) - the UI will be available under the configured port below (usually `http://127.0.0.1:8080`).
 
 !!! info "Alpha release"
-    PantherUI is still considered an alpha release - if you encounter bugs or inconsistencies please open a [PantherUI issue](https://github.com/panther/pantherui/issues/new/choose).
+    PantherUI is still considered an alpha release - if you encounter bugs or inconsistencies please open a [PantherUI issue](https://github.com/thefieryleo/pantherui/issues/new/choose).
 
 !!! Note "developers"
-    Developers should not use this method, but instead use the method described in the [pantherUI repository](https://github.com/panther/pantherui) to get the source-code of pantherUI.
+    Developers should not use this method, but instead use the method described in the [pantherUI repository](https://github.com/thefieryleo/pantherui) to get the source-code of pantherUI.
 
 ## Configuration
 
