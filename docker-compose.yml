@@ -2,7 +2,7 @@
 version: '3'
 services:
   panther:
-    image: pantherorg/panther:stable
+    image: pantherorg/panther
     # image: pantherorg/panther:develop
     # Use plotting image
     # image: pantherorg/panther:develop_plot
