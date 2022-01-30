@@ -14,7 +14,7 @@ To simplify running panther, [`docker-compose`](https://docs.docker.com/compose/
 
 ## Panther with docker-compose
 
-Panther provides an official Docker image on [Dockerhub](https://hub.docker.com/r/pantherorg/panther/), as well as a [docker-compose file](https://github.com/panther/panther/blob/stable/docker-compose.yml) ready for usage.
+Panther provides an official Docker image on [Dockerhub](https://hub.docker.com/r/freqtradeorg/freqtrade/), as well as a [docker-compose file](https://github.com/panther/panther/blob/stable/docker-compose.yml) ready for usage.
 
 !!! Note
     - The following section assumes that `docker` and `docker-compose` are installed and available to the logged in user.
@@ -129,7 +129,7 @@ All panther arguments will be available by running `docker-compose run --rm pant
 ??? Note "Using docker without docker-compose"
     "`docker-compose run --rm`" will require a compose file to be provided.
     Some panther commands that don't require authentication such as `list-pairs` can be run with "`docker run --rm`" instead.  
-    For example `docker run --rm pantherorg/panther:stable list-pairs --exchange binance --quote BTC --print-json`.  
+    For example `docker run --rm freqtradeorg/freqtrade:stable list-pairs --exchange binance --quote BTC --print-json`.  
     This can be useful for fetching exchange information to add to your `config.json` without affecting your running containers.
 
 #### Example: Download data with docker-compose

@@ -1,4 +1,4 @@
-FROM pantherorg/panther:develop
+FROM freqtradeorg/freqtrade:develop
 
 USER root
 # Install dependencies

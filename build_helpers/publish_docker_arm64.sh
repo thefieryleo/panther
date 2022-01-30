@@ -10,7 +10,7 @@ TAG_PI="${TAG}_pi"
 
 TAG_ARM=${TAG}_arm
 TAG_PLOT_ARM=${TAG_PLOT}_arm
-CACHE_IMAGE=pantherorg/panther_cache
+CACHE_IMAGE=freqtradeorg/freqtrade_cache
 
 echo "Running for ${TAG}"
 
