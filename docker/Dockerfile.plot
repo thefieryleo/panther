@@ -1,4 +1,4 @@
-ARG sourceimage=freqtradeorg/freqtrade
+ARG sourceimage=pantherorg/panther
 ARG sourcetag=develop
 FROM ${sourceimage}:${sourcetag}
 

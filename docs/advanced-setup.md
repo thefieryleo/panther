@@ -60,10 +60,10 @@ To run multiple instances of panther using docker you will need to edit the dock
 version: '3'
 services:
   panther1:
-    image: freqtradeorg/freqtrade:stable
-    # image: freqtradeorg/freqtrade:develop
+    image: pantherorg/panther:stable
+    # image: pantherorg/panther:develop
     # Use plotting image
-    # image: freqtradeorg/freqtrade:develop_plot
+    # image: pantherorg/panther:develop_plot
     # Build step - only needed when additional dependencies are needed
     # build:
     #   context: .
@@ -87,10 +87,10 @@ services:
       --strategy SampleStrategy
   
   panther2:
-    image: freqtradeorg/freqtrade:stable
-    # image: freqtradeorg/freqtrade:develop
+    image: pantherorg/panther:stable
+    # image: pantherorg/panther:develop
     # Use plotting image
-    # image: freqtradeorg/freqtrade:develop_plot
+    # image: pantherorg/panther:develop_plot
     # Build step - only needed when additional dependencies are needed
     # build:
     #   context: .

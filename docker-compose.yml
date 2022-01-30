@@ -2,10 +2,10 @@
 version: '3'
 services:
   panther:
-    image: freqtradeorg/freqtrade:stable
-    # image: freqtradeorg/freqtrade:develop
+    image: pantherorg/panther:stable
+    # image: pantherorg/panther:develop
     # Use plotting image
-    # image: freqtradeorg/freqtrade:develop_plot
+    # image: pantherorg/panther:develop_plot
     # Build step - only needed when additional dependencies are needed
     # build:
     #   context: .

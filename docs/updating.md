@@ -5,7 +5,7 @@ To update your panther installation, please use one of the below methods, corres
 ## docker-compose
 
 !!! Note "Legacy installations using the `master` image"
-    We're switching from master to stable for the release Images - please adjust your docker-file and replace `freqtradeorg/freqtrade:master` with `freqtradeorg/freqtrade:stable`
+    We're switching from master to stable for the release Images - please adjust your docker-file and replace `pantherorg/panther:master` with `pantherorg/panther:stable`
 
 ``` bash
 docker-compose pull
