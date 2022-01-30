@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+recursive-include panther *.py
+recursive-include panther/templates/ *.j2 *.ipynb
+include panther/rpc/api_server/ui/fallback_file.html
+include panther/rpc/api_server/ui/favicon.ico

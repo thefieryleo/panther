@@ -1,0 +1,10 @@
+FROM pantherorg/panther:develop
+
+# Install dependencies
+COPY requirements-dev.txt /panther/
+
+RUN pip install numpy --user --no-cache-dir \
+  && pip install -r requirements-dev.txt --user --no-cache-dir
+
+# Empty the ENTRYPOINT to allow all commands
+ENTRYPOINT []
