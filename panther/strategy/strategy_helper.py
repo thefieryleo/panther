@@ -39,7 +39,7 @@ def merge_informative_pair(dataframe: pd.DataFrame, informative: pd.DataFrame,
         informative['date_merge'] = informative[date_column]
     elif minutes < minutes_inf:
         # Subtract "small" timeframe so merging is not delayed by 1 small candle
-        # Detailed explanation in https://github.com/panther/panther/issues/4073
+        # Detailed explanation in https://github.com/thefieryleo/panther/issues/4073
         informative['date_merge'] = (
             informative[date_column] + pd.to_timedelta(minutes_inf, 'm') -
             pd.to_timedelta(minutes, 'm')

@@ -1,6 +1,6 @@
 site_name: Panther
 site_url: https://www.panther.io/
-repo_url: https://github.com/panther/panther
+repo_url: https://github.com/thefieryleo/panther
 use_directory_urls: True
 nav:
     - Home: index.md

@@ -14,7 +14,7 @@ To simplify running panther, [`docker-compose`](https://docs.docker.com/compose/
 
 ## Panther with docker-compose
 
-Panther provides an official Docker image on [Dockerhub](https://hub.docker.com/r/pantherorg/panther/), as well as a [docker-compose file](https://github.com/panther/panther/blob/stable/docker-compose.yml) ready for usage.
+Panther provides an official Docker image on [Dockerhub](https://hub.docker.com/r/pantherorg/panther/), as well as a [docker-compose file](https://github.com/thefieryleo/panther/blob/stable/docker-compose.yml) ready for usage.
 
 !!! Note
     - The following section assumes that `docker` and `docker-compose` are installed and available to the logged in user.
@@ -22,13 +22,13 @@ Panther provides an official Docker image on [Dockerhub](https://hub.docker.com/
 
 ### Docker quick start
 
-Create a new directory and place the [docker-compose file](https://raw.githubusercontent.com/panther/panther/stable/docker-compose.yml) in this directory.
+Create a new directory and place the [docker-compose file](https://raw.githubusercontent.com/thefieryleo/panther/stable/docker-compose.yml) in this directory.
 
 ``` bash
 mkdir ft_userdata
 cd ft_userdata/
 # Download the docker-compose file from the repository
-curl https://raw.githubusercontent.com/panther/panther/stable/docker-compose.yml -o docker-compose.yml
+curl https://raw.githubusercontent.com/thefieryleo/panther/stable/docker-compose.yml -o docker-compose.yml
 
 # Pull the panther image
 docker-compose pull
@@ -155,7 +155,7 @@ Head over to the [Backtesting Documentation](backtesting.md) to learn more.
 ### Additional dependencies with docker-compose
 
 If your strategy requires dependencies not included in the default image - it will be necessary to build the image on your host.
-For this, please create a Dockerfile containing installation steps for the additional dependencies (have a look at [docker/Dockerfile.custom](https://github.com/panther/panther/blob/develop/docker/Dockerfile.custom) for an example).
+For this, please create a Dockerfile containing installation steps for the additional dependencies (have a look at [docker/Dockerfile.custom](https://github.com/thefieryleo/panther/blob/develop/docker/Dockerfile.custom) for an example).
 
 You'll then also need to modify the `docker-compose.yml` file and uncomment the build step, as well as rename the image to avoid naming collisions.
 

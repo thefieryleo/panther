@@ -16,7 +16,7 @@ Otherwise, try the instructions below.
 ### 1. Clone the git repository
 
 ```bash
-git clone https://github.com/panther/panther.git
+git clone https://github.com/thefieryleo/panther.git
 ```
 
 ### 2. Install ta-lib
@@ -44,7 +44,7 @@ panther
     The above installation script assumes you're using powershell on a 64bit windows.
     Commands for the legacy CMD windows console may differ.
 
-> Thanks [Owdr](https://github.com/Owdr) for the commands. Source: [Issue #222](https://github.com/panther/panther/issues/222)
+> Thanks [Owdr](https://github.com/Owdr) for the commands. Source: [Issue #222](https://github.com/thefieryleo/panther/issues/222)
 
 ### Error during installation on Windows
 

@@ -1,13 +1,13 @@
-# ![panther](https://raw.githubusercontent.com/panther/panther/develop/docs/assets/panther_poweredby.svg)
+# ![panther](https://raw.githubusercontent.com/thefieryleo/panther/develop/docs/assets/panther_poweredby.svg)
 
-[![Panther CI](https://github.com/panther/panther/workflows/Panther%20CI/badge.svg)](https://github.com/panther/panther/actions/)
-[![Coverage Status](https://coveralls.io/repos/github/panther/panther/badge.svg?branch=develop&service=github)](https://coveralls.io/github/panther/panther?branch=develop)
+[![Panther CI](https://github.com/thefieryleo/panther/workflows/Panther%20CI/badge.svg)](https://github.com/thefieryleo/panther/actions/)
+[![Coverage Status](https://coveralls.io/repos/github/thefieryleo/panther/badge.svg?branch=develop&service=github)](https://coveralls.io/github/thefieryleo/panther?branch=develop)
 [![Documentation](https://readthedocs.org/projects/panther/badge/)](https://www.panther.io)
-[![Maintainability](https://api.codeclimate.com/v1/badges/5737e6d668200b7518ff/maintainability)](https://codeclimate.com/github/panther/panther/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5737e6d668200b7518ff/maintainability)](https://codeclimate.com/github/thefieryleo/panther/maintainability)
 
 Panther is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
 
-![panther](https://raw.githubusercontent.com/panther/panther/develop/docs/assets/panther-screenshot.png)
+![panther](https://raw.githubusercontent.com/thefieryleo/panther/develop/docs/assets/panther-screenshot.png)
 
 ## Disclaimer
 
@@ -67,7 +67,7 @@ Please find the complete documentation on the [panther website](https://www.pant
 Panther provides a Linux/macOS script to install all dependencies and help you to configure the bot.
 
 ```bash
-git clone -b develop https://github.com/panther/panther.git
+git clone -b develop https://github.com/thefieryleo/panther.git
 cd panther
 ./setup.sh --install
 ```
@@ -150,34 +150,34 @@ The project is currently setup in two main branches:
 
 For any questions not covered by the documentation or for further information about the bot, or to simply engage with like-minded individuals, we encourage you to join the Panther [discord server](https://discord.gg/p7nuUNVfP7).
 
-### [Bugs / Issues](https://github.com/panther/panther/issues?q=is%3Aissue)
+### [Bugs / Issues](https://github.com/thefieryleo/panther/issues?q=is%3Aissue)
 
 If you discover a bug in the bot, please
-[search the issue tracker](https://github.com/panther/panther/issues?q=is%3Aissue)
+[search the issue tracker](https://github.com/thefieryleo/panther/issues?q=is%3Aissue)
 first. If it hasn't been reported, please
-[create a new issue](https://github.com/panther/panther/issues/new/choose) and
+[create a new issue](https://github.com/thefieryleo/panther/issues/new/choose) and
 ensure you follow the template guide so that the team can assist you as
 quickly as possible.
 
-### [Feature Requests](https://github.com/panther/panther/labels/enhancement)
+### [Feature Requests](https://github.com/thefieryleo/panther/labels/enhancement)
 
 Have you a great idea to improve the bot you want to share? Please,
-first search if this feature was not [already discussed](https://github.com/panther/panther/labels/enhancement).
+first search if this feature was not [already discussed](https://github.com/thefieryleo/panther/labels/enhancement).
 If it hasn't been requested, please
-[create a new request](https://github.com/panther/panther/issues/new/choose)
+[create a new request](https://github.com/thefieryleo/panther/issues/new/choose)
 and ensure you follow the template guide so that it does not get lost
 in the bug reports.
 
-### [Pull Requests](https://github.com/panther/panther/pulls)
+### [Pull Requests](https://github.com/thefieryleo/panther/pulls)
 
 Feel like the bot is missing a feature? We welcome your pull requests!
 
 Please read the
-[Contributing document](https://github.com/panther/panther/blob/develop/CONTRIBUTING.md)
+[Contributing document](https://github.com/thefieryleo/panther/blob/develop/CONTRIBUTING.md)
 to understand the requirements before sending your pull-requests.
 
 Coding is not a necessity to contribute - maybe start with improving the documentation?
-Issues labeled [good first issue](https://github.com/panther/panther/labels/good%20first%20issue) can be good first contributions, and will help get you familiar with the codebase.
+Issues labeled [good first issue](https://github.com/thefieryleo/panther/labels/good%20first%20issue) can be good first contributions, and will help get you familiar with the codebase.
 
 **Note** before starting any major new feature work, *please open an issue describing what you are planning to do* or talk to us on [discord](https://discord.gg/p7nuUNVfP7) (please use the #dev channel for this). This will ensure that interested parties can give valuable feedback on the feature, and let others know that you are working on it.
 

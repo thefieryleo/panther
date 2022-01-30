@@ -2,7 +2,7 @@
 
 This page is intended for developers of Panther, people who want to contribute to the Panther codebase or documentation, or people who want to understand the source code of the application they're running.
 
-All contributions, bug reports, bug fixes, documentation improvements, enhancements and ideas are welcome. We [track issues](https://github.com/panther/panther/issues) on [GitHub](https://github.com) and also have a dev channel on [discord](https://discord.gg/p7nuUNVfP7) where you can ask questions.
+All contributions, bug reports, bug fixes, documentation improvements, enhancements and ideas are welcome. We [track issues](https://github.com/thefieryleo/panther/issues) on [GitHub](https://github.com) and also have a dev channel on [discord](https://discord.gg/p7nuUNVfP7) where you can ask questions.
 
 ## Documentation
 
@@ -26,7 +26,7 @@ Alternatively (e.g. if your system is not supported by the setup.sh script), fol
 
 This will install all required tools for development, including `pytest`, `flake8`, `mypy`, and `coveralls`.
 
-Before opening a pull request, please familiarize yourself with our [Contributing Guidelines](https://github.com/panther/panther/blob/develop/CONTRIBUTING.md).
+Before opening a pull request, please familiarize yourself with our [Contributing Guidelines](https://github.com/thefieryleo/panther/blob/develop/CONTRIBUTING.md).
 
 ### Devcontainer setup
 
@@ -107,7 +107,7 @@ Hopefully you also want to contribute this back upstream.
 
 Whatever your motivations are - This should get you off the ground in trying to develop a new Pairlist Handler.
 
-First of all, have a look at the [VolumePairList](https://github.com/panther/panther/blob/develop/panther/pairlist/VolumePairList.py) Handler, and best copy this file with a name of your new Pairlist Handler.
+First of all, have a look at the [VolumePairList](https://github.com/thefieryleo/panther/blob/develop/panther/pairlist/VolumePairList.py) Handler, and best copy this file with a name of your new Pairlist Handler.
 
 This is a simple Handler, which however serves as a good example on how to start developing.
 
@@ -326,7 +326,7 @@ This documents some decisions taken for the CI Pipeline.
 * CI runs on all OS variants, Linux (ubuntu), macOS and Windows.
 * Docker images are build for the branches `stable` and `develop`, and are built as multiarch builds, supporting multiple platforms via the same tag.
 * Docker images containing Plot dependencies are also available as `stable_plot` and `develop_plot`.
-* Docker images contain a file, `/panther/panther_commit` containing the commit this image is based of.
+* Docker images contain a file, `/thefieryleo/panther_commit` containing the commit this image is based of.
 * Full docker image rebuilds are run once a week via schedule.
 * Deployments run on ubuntu.
 * ta-lib binaries are contained in the build_helpers directory to avoid fails related to external unavailability.

@@ -1,13 +1,13 @@
 ![panther](assets/panther_poweredby.svg)
 
-[![Panther CI](https://github.com/panther/panther/workflows/Panther%20CI/badge.svg)](https://github.com/panther/panther/actions/)
-[![Coverage Status](https://coveralls.io/repos/github/panther/panther/badge.svg?branch=develop&service=github)](https://coveralls.io/github/panther/panther?branch=develop)
-[![Maintainability](https://api.codeclimate.com/v1/badges/5737e6d668200b7518ff/maintainability)](https://codeclimate.com/github/panther/panther/maintainability)
+[![Panther CI](https://github.com/thefieryleo/panther/workflows/Panther%20CI/badge.svg)](https://github.com/thefieryleo/panther/actions/)
+[![Coverage Status](https://coveralls.io/repos/github/thefieryleo/panther/badge.svg?branch=develop&service=github)](https://coveralls.io/github/thefieryleo/panther?branch=develop)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5737e6d668200b7518ff/maintainability)](https://codeclimate.com/github/thefieryleo/panther/maintainability)
 
 <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/panther/panther" data-icon="octicon-star" data-size="large" aria-label="Star panther/panther on GitHub">Star</a>
-<a class="github-button" href="https://github.com/panther/panther/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork panther/panther on GitHub">Fork</a>
-<a class="github-button" href="https://github.com/panther/panther/archive/stable.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download panther/panther on GitHub">Download</a>
+<a class="github-button" href="https://github.com/thefieryleo/panther" data-icon="octicon-star" data-size="large" aria-label="Star thefieryleo/panther on GitHub">Star</a>
+<a class="github-button" href="https://github.com/thefieryleo/panther/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork thefieryleo/panther on GitHub">Fork</a>
+<a class="github-button" href="https://github.com/thefieryleo/panther/archive/stable.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download thefieryleo/panther on GitHub">Download</a>
 
 ## Introduction
 
@@ -22,7 +22,7 @@ Panther is a crypto-currency algorithmic trading software developed in python (3
 
 ## Features
 
-- Develop your Strategy: Write your strategy in python, using [pandas](https://pandas.pydata.org/). Example strategies to inspire you are available in the [strategy repository](https://github.com/panther/panther-strategies).
+- Develop your Strategy: Write your strategy in python, using [pandas](https://pandas.pydata.org/). Example strategies to inspire you are available in the [strategy repository](https://github.com/thefieryleo/panther-strategies).
 - Download market data: Download historical data of the exchange and the markets your may want to trade with.
 - Backtest: Test your strategy on downloaded historical data.
 - Optimize: Find the best parameters for your strategy using hyperoptimization which employs machining learning methods. You can optimize buy, sell, take profit (ROI), stop-loss and trailing stop-loss parameters for your strategy.

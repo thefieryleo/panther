@@ -191,7 +191,7 @@ class SampleStrategy(IStrategy):
         dataframe['fastk'] = stoch_fast['fastk']
 
         # # Stochastic RSI
-        # Please read https://github.com/panther/panther/issues/2961 before using this.
+        # Please read https://github.com/thefieryleo/panther/issues/2961 before using this.
         # STOCHRSI is NOT aligned with tradingview, which may result in non-expected results.
         # stoch_rsi = ta.STOCHRSI(dataframe)
         # dataframe['fastd_rsi'] = stoch_rsi['fastd']

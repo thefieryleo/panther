@@ -1233,7 +1233,7 @@ def test_update_order_from_ccxt(caplog):
     assert o.order_filled_date is None
 
     # Order is unfilled, "filled" not set
-    # https://github.com/panther/panther/issues/5404
+    # https://github.com/thefieryleo/panther/issues/5404
     ccxt_order.update({'filled': None, 'remaining': 20.0, 'status': 'canceled'})
     o.update_from_ccxt_object(ccxt_order)
 

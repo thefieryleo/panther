@@ -11,7 +11,7 @@ class InformativeDecoratorTest(IStrategy):
     Strategy used by tests panther bot.
     Please do not modify this strategy, it's  intended for internal use only.
     Please look at the SampleStrategy in the user_data/strategy directory
-    or strategy repository https://github.com/panther/panther-strategies
+    or strategy repository https://github.com/thefieryleo/panther-strategies
     for samples and inspiration.
     """
     INTERFACE_VERSION = 2

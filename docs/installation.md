@@ -79,7 +79,7 @@ OS Specific steps are listed first, the [Common](#common) section below is neces
     # Use pywheels.org to speed up installation
     sudo echo "[global]\nextra-index-url=https://www.piwheels.org/simple" > tee /etc/pip.conf
 
-    git clone https://github.com/panther/panther.git
+    git clone https://github.com/thefieryleo/panther.git
     cd panther
 
     bash setup.sh -i
@@ -101,7 +101,7 @@ Panther is an open source crypto-currency trading bot, whose code is hosted on `
 
 ```bash
 # Download `develop` branch of panther repository
-git clone https://github.com/panther/panther.git
+git clone https://github.com/thefieryleo/panther.git
 
 # Enter downloaded directory
 cd panther
@@ -276,7 +276,7 @@ Download and install panther.
 
 ```bash
 # download panther
-git clone https://github.com/panther/panther.git
+git clone https://github.com/thefieryleo/panther.git
 
 # enter downloaded directory 'panther'
 cd panther      
