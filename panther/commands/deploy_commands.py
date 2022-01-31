@@ -132,7 +132,7 @@ def get_ui_download_url(version: Optional[str] = None) -> Tuple[str, str]:
     base_url = 'https://api.github.com/user/thefieryleo/'
     # Get base UI Repo path
 
-    resp = requests.get(f"{base_url}repo")
+    resp = requests.get(f"{base_url}repos")
     resp.raise_for_status()
     r = resp.json()
 
