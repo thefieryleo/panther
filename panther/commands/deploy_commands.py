@@ -129,7 +129,7 @@ def download_and_install_ui(dest_folder: Path, dl_url: str, version: str):
 
 
 def get_ui_download_url(version: Optional[str] = None) -> Tuple[str, str]:
-    base_url = 'https://api.github.com/user/thefieryleo/'
+    base_url = 'https://api.github.com/users/thefieryleo/'
     # Get base UI Repo path
 
     resp = requests.get(f"{base_url}repos")
